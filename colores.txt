@@ -1,0 +1,6 @@
+primario #e9e8e7
+secundario #c696b0
+terciario #e9e0de
+
+verde #7e936a
+negro #010004
