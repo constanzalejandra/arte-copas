@@ -82,6 +82,13 @@ export default {
       if (this.$refs.form.validate()) {
         this.newProduct.rating = Number(this.newProduct.rating);
         await this.addProduct(this.newProduct);
+        this.newProduct = {
+          name: "",
+          src: "",
+          rating: 0,
+          price: "",
+          description: "",
+        };
         this.dialog = false;
         await this.getAllProducts();
       }
